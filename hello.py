@@ -3,7 +3,8 @@
 
 def main() -> str:
     """Hello"""
-    return "Hello World"
+    name: str = input("name")
+    return f"Hello {name}"
 
 
 if __name__ == "__main__":
